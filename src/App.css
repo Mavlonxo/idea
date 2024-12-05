@@ -15,6 +15,25 @@ body {
   padding: 30px 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+/* Add a phone number style at the top */
+.phone-number {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  margin-left: -35px;
+}
+
+.phone-number span {
+  display: block;
+}
+
 
 /* Categories */
 .categories {

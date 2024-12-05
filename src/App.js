@@ -27,6 +27,8 @@ import drink1 from './img/drink1.jpg';
 import drink2 from './img/drink2.jpg';
 import drink3 from './img/drink3.jpg';
 
+// Desserts
+
 const menu = {
   Салат: [
     { name: "Греческий", price: "37 000", img: salad1 },
@@ -53,7 +55,8 @@ const menu = {
     { name: "Moxito", price: "40 000", img: drink1 },
     { name: "Ocean", price: "40 000", img: drink2 },
     { name: "Klubinka", price: "40 000", img: drink3 }
-  ]
+  ],
+ 
 };
 
 function App() {
@@ -66,6 +69,10 @@ function App() {
   return (
     <div className="App">
       <header className="header">
+        {/* Phone Number Section */}
+        <div className="phone-number">
+          <span> Дастафка учун +998 88 212 10 10</span>
+        </div>
         <h1>Zeytun Menu</h1>
       </header>
       <div className="categories">
