@@ -50,7 +50,6 @@ import two10 from  './img/two10.jpg'
 import pizza1 from './img/pizza1.jpg'
 import pizza2 from './img/pizza2.jpg'
 import pizza3 from './img/pizza3.jpg'
-
 const menu = {
   Салат: [
     { name: "Греческий", price: "37 000", img: salad1 },
@@ -70,32 +69,30 @@ const menu = {
     { name: "Борщ украинский", price: "32 000", img: soup8 }
   ],
   "2-чи овқат": [
-    { name: "Food 1", price: "50 000", img: two1 },
-    { name: "Food 2", price: "50 000", img: two2 },
-    { name: "Food 3", price: "50 000", img: two3 },
-    { name: "Food 4", price: "50 000", img: two4 },
-    { name: "Food 5", price: "50 000", img: two5 },
-    { name: "Food 6", price: "50 000", img: two6 },
-    { name: "Food 7", price: "50 000", img: two7 },
-    { name: "Food 8", price: "50 000", img: two8 },
-    { name: "Food 9", price: "50 000", img: two9 },
-    { name: "Food 10", price: "50 000", img: two10 },
-    { name: "Pizza 10", price: "50 000", img: pizza1 },
-    { name: "Pizza 11", price: "50 000", img: pizza2 },
-    { name: "Pizza 12", price: "50 000", img: pizza3 },
-
-   
+    { name: "Блюдо 1", price: "50 000", img: two1 },
+    { name: "Блюдо 2", price: "50 000", img: two2 },
+    { name: "Блюдо 3", price: "50 000", img: two3 },
+    { name: "Блюдо 4", price: "50 000", img: two4 },
+    { name: "Блюдо 5", price: "50 000", img: two5 },
+    { name: "Блюдо 6", price: "50 000", img: two6 },
+    { name: "Блюдо 7", price: "50 000", img: two7 },
+    { name: "Блюдо 8", price: "50 000", img: two8 },
+    { name: "Блюдо 9", price: "50 000", img: two9 },
+    { name: "Блюдо 10", price: "50 000", img: two10 },
+    { name: "Пицца 1", price: "50 000", img: pizza1 },
+    { name: "Пицца 2", price: "50 000", img: pizza2 },
+    { name: "Пицца 3", price: "50 000", img: pizza3 }
   ],
   Ичимликлар: [
-    { name: "Moxito", price: "40 000", img: drink1 },
-    { name: "Ocean", price: "40 000", img: drink2 },
-    { name: "Klubinka", price: "40 000", img: drink3 },
-    { name: "Americano", price: "40 000", img: cofe1 },
-    { name: "Kapuchino", price: "40 000", img: cofe2 },
-    { name: "Late", price: "40 000", img: cofe3 },
-  ],
- 
+    { name: "Мохито", price: "40 000", img: drink1 },
+    { name: "Океан", price: "40 000", img: drink2 },
+    { name: "Клубника", price: "40 000", img: drink3 },
+    { name: "Американо", price: "40 000", img: cofe1 },
+    { name: "Капучино", price: "40 000", img: cofe2 },
+    { name: "Латте", price: "40 000", img: cofe3 }
+  ]
 };
+
 
 
 
