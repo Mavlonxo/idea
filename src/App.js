@@ -27,7 +27,12 @@ import drink1 from './img/drink1.jpg';
 import drink2 from './img/drink2.jpg';
 import drink3 from './img/drink3.jpg';
 
-// Desserts
+//Suyuq drinks 
+
+import cofe1 from './img/cofe1.jpg';
+import cofe2 from './img/cofe2.jpg';
+import cofe3 from './img/cofe3.jpg';
+import koktey from './img/kokteyl.jpg';
 
 const menu = {
   Салат: [
@@ -54,10 +59,16 @@ const menu = {
   Ичимликлар: [
     { name: "Moxito", price: "40 000", img: drink1 },
     { name: "Ocean", price: "40 000", img: drink2 },
-    { name: "Klubinka", price: "40 000", img: drink3 }
+    { name: "Klubinka", price: "40 000", img: drink3 },
+    { name: "Americano", price: "40 000", img: cofe1 },
+    { name: "Kapuchino", price: "40 000", img: cofe2 },
+    { name: "Late", price: "40 000", img: cofe3 },
+    { name: "No Name", price: "40 000", img: koktey}
   ],
  
 };
+
+
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState("Салат");
