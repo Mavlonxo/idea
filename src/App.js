@@ -27,7 +27,6 @@ import drink2 from './img/drink2.jpg';
 import drink3 from './img/drink3.jpg';
 import pepsi1 from './img/pepsi1.jpg';
 import cola1 from './img/cola1.jpg';
-import sevenup from './img/sevenup7.jpg';
 
 //Suyuq drinks 
 
@@ -123,7 +122,6 @@ const menu = {
     { name: "Латте", price: "25 000", img: cofe3 },
     { name: "Coca Cola 1", price: "12 000", img: cola1 },
     { name: "Pepsi 1", price: "12 000", img: pepsi1 },
-    { name: "Seven Up 1", price: "25 000", img: sevenup },
   ],
   Хлеб: [
     { name: "Белый хлеб", price: "5 000", img: xleb1 },
