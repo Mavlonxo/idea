@@ -68,6 +68,9 @@ import xleb1 from './img/xleb1.jpg'
 import xleb2 from './img/xleb2.jpg'
 import xleb3 from './img/xleb3.jpg'
 
+// instagram logo 
+import instagramlogo from './img/Instagram_logo_2022.svg.jpg'
+
 
 
 
@@ -145,9 +148,12 @@ function App() {
       <header className="header">
         {/* Phone Number Section */}
         <div className="phone-number">
-          <span> Дастафка учун +998 88 212 10 10</span>
+          <span> Дастафка учун +998 88 212 10 10 </span> 
         </div>
         <h1>Zeytun Menu</h1>
+         <a href="https://www.instagram.com/zeytun_cafe_restaurant/">
+         <img  src={instagramlogo} alt="Instagram" className="instagram"/>
+         </a>
       </header>
       <div className="categories">
         {Object.keys(menu).map((category) => (
