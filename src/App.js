@@ -31,6 +31,7 @@ import drink3 from './img/drink3.jpg';
 import cofe1 from './img/cofe1.jpg';
 import cofe2 from './img/cofe2.jpg';
 import cofe3 from './img/cofe3.jpg';
+import cofe4 from './img/cofe4.jpg';
 
 //The second foood 
 
@@ -50,6 +51,16 @@ import two10 from  './img/two10.jpg'
 import pizza1 from './img/pizza1.jpg'
 import pizza2 from './img/pizza2.jpg'
 import pizza3 from './img/pizza3.jpg'
+
+//Xleb 
+
+import xleb1 from './img/xleb1.jpg'
+import xleb2 from './img/xleb2.jpg'
+import xleb3 from './img/xleb3.jpg'
+
+
+
+
 const menu = {
   Салат: [
     { name: "Греческий", price: "37 000", img: salad1 },
@@ -84,12 +95,18 @@ const menu = {
     { name: "Пицца 3", price: "50 000", img: pizza3 }
   ],
   Ичимликлар: [
-    { name: "Мохито", price: "40 000", img: drink1 },
-    { name: "Океан", price: "40 000", img: drink2 },
-    { name: "Клубника", price: "40 000", img: drink3 },
-    { name: "Американо", price: "40 000", img: cofe1 },
-    { name: "Капучино", price: "40 000", img: cofe2 },
-    { name: "Латте", price: "40 000", img: cofe3 }
+    { name: "Клубники", price: "25 000", img: drink1 },
+    { name: "Мохито", price: "25 000", img: drink2 },
+    { name: "Айс Ти", price: "25 000", img: drink3 },
+    { name: "Американо", price: "15 000", img: cofe1 },
+    { name: "Капучино", price: "25 000", img: cofe2 },
+    { name: "Латте", price: "25 000", img: cofe3 },
+    { name: "Латте", price: "25 000", img: cofe4 }
+  ],
+  Хлеб: [
+    { name: "Белый хлеб", price: "5 000", img: xleb1 },
+    { name: "Чёрный хлеб", price: "6 000", img: xleb2 },
+    { name: "Чёрный хлеб", price: "6 000", img: xleb3 },
   ]
 };
 
