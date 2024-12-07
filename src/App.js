@@ -25,13 +25,15 @@ import soup8 from './img/b7.jpg';
 import drink1 from './img/drink1.jpg';
 import drink2 from './img/drink2.jpg';
 import drink3 from './img/drink3.jpg';
+import pepsi1 from './img/pepsi1.jpg';
+import cola1 from './img/cola1.jpg';
+import sevenup from './img/sevenup7.jpg';
 
 //Suyuq drinks 
 
 import cofe1 from './img/cofe1.jpg';
 import cofe2 from './img/cofe2.jpg';
 import cofe3 from './img/cofe3.jpg';
-import cofe4 from './img/cofe4.jpg';
 
 //The second foood 
 
@@ -45,6 +47,15 @@ import two7 from  './img/two7.jpg'
 import two8 from  './img/two8.jpg'
 import two9 from  './img/two9.jpg'
 import two10 from  './img/two10.jpg'
+import two11 from './img/two11.jpg'
+import two12 from './img/two12.jpg'
+import two13 from './img/two13.jpg'
+import two14 from './img/two14.jpg'
+import two15 from './img/two15.jpg'
+import two16 from './img/two16.jpg'
+import two17 from './img/two17.jpg'
+import two18 from './img/two18.jpg'
+import two19 from './img/two19.jpg'
 
 
 //Pizza
@@ -90,6 +101,15 @@ const menu = {
     { name: "Блюдо 8", price: "50 000", img: two8 },
     { name: "Блюдо 9", price: "50 000", img: two9 },
     { name: "Блюдо 10", price: "50 000", img: two10 },
+    { name: "Блюдо 10", price: "50 000", img: two11 },
+    { name: "Блюдо 10", price: "50 000", img: two12 },
+    { name: "Блюдо 10", price: "50 000", img: two13 },
+    { name: "Блюдо 10", price: "50 000", img: two14 },
+    { name: "Блюдо 10", price: "50 000", img: two15 },
+    { name: "Блюдо 10", price: "50 000", img: two16 },
+    { name: "Блюдо 10", price: "50 000", img: two17 },
+    { name: "Блюдо 10", price: "50 000", img: two18 },
+    { name: "Блюдо 10", price: "50 000", img: two19 },
     { name: "Пицца 1", price: "50 000", img: pizza1 },
     { name: "Пицца 2", price: "50 000", img: pizza2 },
     { name: "Пицца 3", price: "50 000", img: pizza3 }
@@ -101,7 +121,9 @@ const menu = {
     { name: "Американо", price: "15 000", img: cofe1 },
     { name: "Капучино", price: "25 000", img: cofe2 },
     { name: "Латте", price: "25 000", img: cofe3 },
-    { name: "Латте", price: "25 000", img: cofe4 }
+    { name: "Coca Cola 1", price: "12 000", img: cola1 },
+    { name: "Pepsi 1", price: "12 000", img: pepsi1 },
+    { name: "Seven Up 1", price: "25 000", img: sevenup },
   ],
   Хлеб: [
     { name: "Белый хлеб", price: "5 000", img: xleb1 },
