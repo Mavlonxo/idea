@@ -70,7 +70,7 @@ import xleb3 from './img/xleb3.jpg'
 
 // instagram logo 
 import instagramlogo from './img/Instagram_logo_2022.svg.jpg'
-
+import telegramLogo from './img/Telegram_2019_Logo.svg.jpg'
 
 
 
@@ -151,9 +151,13 @@ function App() {
           <span> Дастафка учун +998 88 212 10 10 </span> 
         </div>
         <h1>Zeytun Menu</h1>
+       <a href="https://t.me/Zeytun18">
+       <img className="telegram" src={telegramLogo} alt="okay" />
+       </a>
          <a href="https://www.instagram.com/zeytun_cafe_restaurant/">
          <img  src={instagramlogo} alt="Instagram" className="instagram"/>
          </a>
+
       </header>
       <div className="categories">
         {Object.keys(menu).map((category) => (
