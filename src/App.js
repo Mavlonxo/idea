@@ -50,10 +50,6 @@ import two11 from './img/two11.jpg'
 import two12 from './img/two12.jpg'
 import two13 from './img/two13.jpg'
 import two14 from './img/two14.jpg'
-import two15 from './img/two15.jpg'
-import two16 from './img/two16.jpg'
-import two17 from './img/two17.jpg'
-import two18 from './img/two18.jpg'
 import two19 from './img/two19.jpg'
 
 
@@ -107,14 +103,12 @@ const menu = {
     { name: "Луля-кебаб", price: "42 000", img: two12 },
     { name: "гуляш", price: "48 000", img: two13 },
     { name: "быстроганов", price: "51 000", img: two14 },
-    { name: "изгара кофте ", price: "55 000", img: two16 },
-    { name: "изгара кофте  с маянезом ", price: " 65 000", img: two15 },
-    { name: "Блюдо 10", price: "50 000", img: two17 },
-    { name: "Блюдо 10", price: "50 000", img: two18 },
-    { name: "Блюдо 10", price: "50 000", img: two19 },
-    { name: "Пицца 1", price: "50 000", img: pizza1 },
-    { name: "Пицца 2", price: "50 000", img: pizza2 },
-    { name: "Пицца 3", price: "50 000", img: pizza3 }
+
+
+    { name: "мини джамбо", price: "54 000", img: two19 },
+    { name: "Пицца пеперони", price: "60 000 / 75 000", img: pizza1 },
+    { name: "Пицца бешбармак", price: "75 000 / 100 000", img: pizza2 },
+    { name: "Пицца кебаб", price: " 55 000 / 75 000", img: pizza3 }
   ],
   Ичимликлар: [
     { name: "Клубники", price: "25 000", img: drink1 },
